@@ -20,9 +20,9 @@
 
 .Album .content a {
   color: #1cb954;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .Album .content a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
