@@ -1,0 +1,18 @@
+.center {
+  height: calc(100vh - 135px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  opacity: 0.5;
+}
+
+.loading progress {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 10px;
+}

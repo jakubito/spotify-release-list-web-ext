@@ -1,0 +1,15 @@
+.SettingsModal .modal-content .field {
+  margin-bottom: 24px;
+}
+
+.SettingsModal .modal-content .credits a {
+  text-decoration: underline;
+}
+
+.SettingsModal .modal-content .credits a:hover {
+  text-decoration: none;
+}
+
+.SettingsModal .modal-content .help {
+  margin: 0 0 20px 0;
+}

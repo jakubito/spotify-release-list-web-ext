@@ -1,0 +1,14 @@
+.ReleaseDay {
+  margin: 0 !important;
+}
+
+.column.date {
+  flex: 0 0 240px;
+  line-height: 30px;
+  margin: 20px 0 0 0 !important;
+}
+
+.column.albums {
+  display: flex;
+  flex-wrap: wrap;
+}
