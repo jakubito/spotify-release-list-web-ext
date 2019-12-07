@@ -46,9 +46,3 @@ export const getDayReleasesSortedEntries = createSelector(getDayReleasesMap, (da
 
   return entries;
 });
-
-export const getAnyModalVisible = createSelector(
-  getSettingsModalVisible,
-  getResetModalVisible,
-  (settingsModalVisible, resetModalVisible) => settingsModalVisible || resetModalVisible
-);

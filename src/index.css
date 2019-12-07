@@ -19,10 +19,6 @@ body,
   outline: none;
 }
 
-.blur {
-  filter: blur(2px);
-}
-
 .modal-content {
   padding: 30px;
   border-radius: 3px;
