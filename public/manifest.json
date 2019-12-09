@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Spotify Release List",
   "author": "Jakub Dobes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display list of Spotify releases from artists you follow.",
   "icons": {
     "16": "icon16.png",
