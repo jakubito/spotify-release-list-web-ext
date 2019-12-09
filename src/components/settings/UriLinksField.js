@@ -26,6 +26,8 @@ function UriLinksField() {
             onChange={uriLinksChangeHandler}
           />
           <label htmlFor="uriLinksFalse">New tab</label>
+        </div>
+        <div className="field">
           <input
             className="is-checkradio has-background-color is-white"
             id="uriLinksTrue"

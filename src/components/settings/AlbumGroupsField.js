@@ -1,4 +1,4 @@
-import React, { useCallback, Fragment } from 'react';
+import React, { useCallback } from 'react';
 import xor from 'lodash.xor';
 import { useSelector, useDispatch } from 'react-redux';
 import { AlbumGroup } from '../../enums';
@@ -18,23 +18,21 @@ function AlbumGroupsField() {
     <div className="field">
       <label className="label has-text-light">Album types</label>
       <div className="control">
-        <div className="field">
-          {Object.entries(AlbumGroup).map(([value, name]) => (
-            <Fragment key={value}>
-              <input
-                className="is-checkradio has-background-color is-white"
-                id={`albumGroupInput${value}`}
-                type="checkbox"
-                name={value}
-                checked={groups.includes(value)}
-                onChange={groupsChangeHandler}
-              />
-              <label htmlFor={`albumGroupInput${value}`} className="has-text-weight-semibold">
-                {name}
-              </label>
-            </Fragment>
-          ))}
-        </div>
+        {Object.entries(AlbumGroup).map(([value, name]) => (
+          <div className="field" key={value}>
+            <input
+              className="is-checkradio has-background-color is-white"
+              id={`albumGroupInput${value}`}
+              type="checkbox"
+              name={value}
+              checked={groups.includes(value)}
+              onChange={groupsChangeHandler}
+            />
+            <label htmlFor={`albumGroupInput${value}`} className="has-text-weight-semibold">
+              {name}
+            </label>
+          </div>
+        ))}
       </div>
     </div>
   );

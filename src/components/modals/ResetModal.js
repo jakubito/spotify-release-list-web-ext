@@ -2,7 +2,6 @@ import React, { useEffect, useCallback } from 'react';
 import { useDispatch } from 'react-redux';
 import { reset, hideResetModal, showSettingsModal } from '../../actions';
 import { modalEffect } from '../../hooks';
-import './ResetModal.css';
 
 function ResetModal() {
   const dispatch = useDispatch();

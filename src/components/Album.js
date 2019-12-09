@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 import { getArtists } from '../selectors';
 import { mergeAlbumArtists } from '../helpers';
 import Link from './Link';
-import './Album.css';
 
 function Album(album) {
   const { uri, url, image, name } = album;

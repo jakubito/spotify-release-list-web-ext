@@ -12,6 +12,7 @@ function SpotifySyncButton({ title, icon, className }) {
   return (
     <button
       className={classNames(
+        'SpotifySyncButton',
         'button',
         'is-primary',
         'is-rounded',

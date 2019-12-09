@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import './Profile.css';
 
 function Profile({ name, image, className }) {
   return (

@@ -7,7 +7,6 @@ import AlbumGroupsField from '../settings/AlbumGroupsField';
 import TimePeriodField from '../settings/TimePeriodField';
 import MarketField from '../settings/MarketField';
 import UriLinksField from '../settings/UriLinksField';
-import './SettingsModal.css';
 
 function SettingsModal() {
   const dispatch = useDispatch();
@@ -28,7 +27,7 @@ function SettingsModal() {
 
         <p className="help">Note: Please refresh the album list to apply these settings.</p>
 
-        <div className="columns is-gapless">
+        <div className="actions columns is-gapless">
           <div className="column">
             <button
               className="button is-primary is-rounded has-text-weight-semibold"
