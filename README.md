@@ -2,6 +2,8 @@
 
 Display list of Spotify releases from artists you follow.
 
+![screenshot.jpg](https://raw.githubusercontent.com/jakubito/spotify-release-list/master/screenshot.jpg)
+
 This is an extension available on Google Chrome Web Store: https://chrome.google.com/webstore/detail/spotify-release-list/nnlbnohmlacgaefjagionbiopljfgolk
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
